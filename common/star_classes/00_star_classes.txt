@@ -917,7 +917,7 @@ sc_tt_red = {
 	
 #	is_environmental_hazard = yes
 #	modifier = {
-#		ship_upkeep_mult = 0.05
+#		ships_upkeep_mult = 0.05
 #	}
 }
 
@@ -942,7 +942,7 @@ sc_tt_orange = {
 	
 #	is_environmental_hazard = yes
 #	modifier = {
-#		ship_upkeep_mult = 0.05
+#		ships_upkeep_mult = 0.05
 #	}
 }
 
@@ -967,7 +967,7 @@ sc_tt_white = {
 	
 #	is_environmental_hazard = yes
 #	modifier = {
-#		ship_upkeep_mult = 0.05
+#		ships_upkeep_mult = 0.05
 #	}
 }
 
@@ -992,7 +992,7 @@ sc_ae = {
 	
 #	is_environmental_hazard = yes
 #	modifier = {
-#		ship_upkeep_mult = 0.10
+#		ships_upkeep_mult = 0.10
 #	}
 }
 

@@ -1771,10 +1771,7 @@ guardians_init_stellarites = {
 	}
 	
 	init_effect = {
-		random_system_planet = {
-			limit = {
-				is_star = yes
-			}
+		star = {
 			change_planet_size = -5
 		}
 	}
@@ -2582,10 +2579,7 @@ guardians_init_technosphere = {
 	}
 	
 	init_effect = {
-		random_system_planet = {
-			limit = {
-				is_star = yes
-			}
+		star = {
 			clear_deposits = yes
 			create_country = {
 				name = "NAME_Infinity_Machine"

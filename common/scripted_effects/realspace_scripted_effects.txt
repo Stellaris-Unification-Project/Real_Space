@@ -312,7 +312,7 @@ create_random_civilization = {
 				name = random
 				authority = random
 				civics = random
-				species = last_created
+				species = last_created_species
 				#name_list = random
 				ethos = random
 				flag = random
@@ -332,7 +332,7 @@ create_random_civilization = {
 			while = {
 				count = 26
 				create_pop = {
-					species = last_created
+					species = last_created_species
 				}
 	    	}
 			set_owner = last_created_country

@@ -93,11 +93,11 @@ ring_world_1 = {
 			}
 			custom_tooltip = {
 				fail_text = "requires_no_anomaly"
-				NOT = { has_anomaly = yes }
+				has_anomaly = no
 			}
 			custom_tooltip = {
 				fail_text = "requires_planets_for_material"
-				hidden:solar_system = { any_system_planet = { NOT = { is_star = yes } } }
+				hidden:solar_system = { any_system_planet = { is_star = no } }
 			}
 		}
 	}
@@ -115,7 +115,7 @@ ring_world_1 = {
 			any_neighbor_system = {
 				exists = owner
 				NOT = {
-					owner = { is_same_value = from }
+					is_owned_by = from
 				}
 			}
 		}

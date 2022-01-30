@@ -1316,7 +1316,7 @@ event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		every_country = {
+		every_playable_country = {
 			limit = { is_ai = no }
 			country_event = { id = realspace.206 }
 		}
@@ -2465,8 +2465,10 @@ country_event = {
 	option = {
 		name = "realspace.221.disasters_on"
 		trigger = { 
-			NOT = { has_global_flag = no_disaster_events } 
-			NOT = { has_global_flag = anger_galaxy }
+			NOR = {
+				has_global_flag = no_disaster_events
+				has_global_flag = anger_galaxy
+			}
 		}
 		hidden_effect = {
 			country_event = { id = realspace.222 }
